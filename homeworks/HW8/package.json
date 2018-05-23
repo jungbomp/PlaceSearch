@@ -1,0 +1,22 @@
+{
+  "name": "hw8",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jQuery": "^1.7.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "request": "^2.85.0",
+    "serve-favicon": "~2.4.5",
+    "yelp-fusion": "^2.0.3"
+  }
+}

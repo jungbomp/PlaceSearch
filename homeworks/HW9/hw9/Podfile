@@ -1,0 +1,13 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+target 'hw9' do
+pod 'GooglePlaces'
+pod 'GooglePlacePicker'
+pod 'GoogleMaps'
+pod 'Alamofire'
+pod 'AlamofireSwiftyJSON'
+pod 'EasyToast'
+pod 'McPicker'
+pod 'SwiftSpinner'
+pod 'Cosmos'
+end
