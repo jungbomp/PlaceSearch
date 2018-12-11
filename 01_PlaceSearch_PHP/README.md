@@ -1,6 +1,38 @@
-# Place Search
+# PHP version of place search web app
 
-This course focuses on the phenomenon known as the World Wide Web (WWW or Web). Its focus is to present many of the core technologies that the Web is based upon. The core technologies included were:
+This is practice to create a webpage on PHP that allows to search for places information using the Google Place API, and the results will be displayed in a tabular format. The page will also provide reviews and photos for the selected place.
+
+## Description
+
+* Fetch the user's geolocation using the [ip-api.com](http://ip-api.com/) HTTP API
+* Use HTML5 placeholder to show the default value hint.
+* Search place detail using [Google Place API](https://developers.google.com/places/)
+
+### Google Place API
+
+This uses google Map APIs. Especially, it uses "Neary by Search", "Place Details", and "Place Photos".
+
+#### [Nearyby Search](https://developers.google.com/places/web-service/search)
+
+The Google places API Nearby Search service expects the following parameters:
+
+* Key: Your application's API key.This key identifies your application for purposes of quota management.
+* Location: The geo-location around which to retrieve place information. The geo-location is specified by latitude and longitude values.
+* Radius: Defines the distance (in meters) within which to return place results. The maximum allowed radius is 50,000 meters. Note that you need to translate miles to meters for a correct value.
+* Type: Filtering the results to places matching the specified type. Only one type may be specified (if more than one type is provided, all types following the first entry are ignored).
+* Keyword: A term to be matched against all content that Google has indexed for this place, including but not limited to name, type, and address, as well as customer reviews and other third-party content.
+
+An examples of an HTTP requests to the Google Places API Nearby Search that searches for the neary cafes near the University of Southern California within a 10 miles radius is shown below:
+![nearbySearch](NearbySearchQuery.png)
+
+Result of Nearby Search Query
+![result](resultGooglePlacesNearby.png)
+
+An Example of a Valid Search result
+![result2](ResultValidSearchResult.png)
+
+#### Place Detail
+
 
 HTML and CSS (Hypertext MarkUp Language and Cascading Style Sheets),
 HTTP (HyperText Transfer Protocol),
