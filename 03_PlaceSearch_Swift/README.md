@@ -1,41 +1,51 @@
-# Place Search
+# PHP version of place search web app
 
-This course focuses on the phenomenon known as the World Wide Web (WWW or Web). Its focus is to present many of the core technologies that the Web is based upon. The core technologies included were:
+This is practice to create a IOS app on Swift. This app uses a server of "02_PlaceSearch_Nodejs" that allows to search for places information using the Google Place API, and the results will be displayed in a tabular format. The page will also provide reviews and photos for the selected place.
 
-HTML and CSS (Hypertext MarkUp Language and Cascading Style Sheets),
-HTTP (HyperText Transfer Protocol),
-Web servers, their configuration and performance properties,
-Client-side Programming Using JavaScript,
-Ajax (Asynchronous JavaScript & XML) and JSON (JavaScript Object Notation),
-Server-side Programming Using PHP and JavaScript
+## Description
 
-In addition the course  also covered the following subsidiary topics:
+* [CocoaPods](https://cocoapods.org/) - A dependency manager for Swift and Objective-C Cocoa project.
+* Search place detail using [Google Place API](https://developers.google.com/places/)
+* Reviews of the place using [Yelp API](https://www.yelp.com/developers/v3/manage_app)
 
-Web Services (REST),
-Web Security,
-Web Technologies for Mobile Phones (Android and iOS),
-Responsive Website Design,
-Cloud Computing (Amazon Web Services and Google Cloud Platform),
-AngularJS and Nodes.js,
-Serverless Applications,
-AWS Lambda and Google Functions
+![Initial Screen](initialSearchScreen.png)
 
-CSCI571-Course Website: http://cs-server.usc.edu:45678/
-Professor Marco Papa: http://intersectworld.net/papa/
+![demo2](demo2.png)
 
-## Homework - 3
-This homework required us to reproduce the provided page as closely as possible. We were not allowed to use any frameworks and required us to do it with **HTML, CSS** (and like the professor said, code as if you are in 1995).
+![demo3](demo3.png)
 
-## Homework - 4
-This homework consisted of writing a **HTML/Javascript** program that takes a JSON URL as input which contains Airline Information, the program then parses the **JSON** file and extracts the list of Airlines, and displays them in a formatted table. All of the parsing and formatting is done with the help of Javascript that is embedded in HTML. It can be executed in any browser. It also handles the various error cases that can be present in a JSON.
+![demo4](demo4.png)
 
-## Homework - 6
-This homework required us to use **PHP and Javascript** and create a webpage that allows us to search for stock information using the Stock quote API, and the results will be displayed in both tabular format and charts format using **HighCharts**.The page also provides News clips for the selected stock.  
+![demo5](demo5.png)
 
-## Homework - 8
-This homework required the use of **Node.js, Angular 4.0, Amazon Web Services, FB API (Feed), Bootstrap, JQuery, JSON, HTML5**  to build a webpage that displays stock information, chart data, historical charts and news for a selected stock. It involved the usage of MarkitOnDemand API for Autocompletion, AlphaVantage API for getting stock, indicator for a stock data in JSON format. Highcharts to generate charts for indicators and historical data. Also, the highcharts export API was used to generate image urls, which can then be used to share the images to the Facebook Feed of the user. The Seeking Alpha news API was used for news section of the app.We also made use of the HTML5 local storage to store stock favourites, implement auto refresh and forced refresh functions for these saved stocks. 
-This homework required us to make a Responsive Web Site (Using Bootstrap) that would automatically scale with the devices (Desktop, Mobile, Tablet).
+![demo6](demo6.png)
 
-## Homework - 9
-This homework required us to use **Android** to replicate the functionality of Homework - 8 in a mobile app. We were given the choice of an Android or an iOS app. I replicated the functionality in an Android app. 
+![demo7](demo7.png)
 
+
+## Building Environment
+* Xcode 10.1
+* Alamofire 4.7.1
+* AlamofireSwiftyJSON 1.0.1
+* Cosmos 15.0.0
+* EasyToast 2.0.2
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.6.0):
+    - GoogleMaps (= 2.6.0)
+    - GooglePlaces (= 2.6.0)
+  - GooglePlaces (2.6.0):
+    - GoogleMaps/Base (= 2.6.0)
+  - McPicker (1.0.0)
+  - SwiftSpinner (1.5.0)
+  - SwiftyJSON (4.0.0)
+
+
+## Status
+
+This is a assignment of CSCI-571 Webtechnologies, 2018 spring
+
+Version 1.0
