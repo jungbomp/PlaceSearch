@@ -29,19 +29,12 @@ This is practice to create a IOS app on Swift. This app uses a server of "02_Pla
 * AlamofireSwiftyJSON 1.0.1
 * Cosmos 15.0.0
 * EasyToast 2.0.2
-  - GoogleMaps (2.6.0):
-    - GoogleMaps/Maps (= 2.6.0)
-  - GoogleMaps/Base (2.6.0)
-  - GoogleMaps/Maps (2.6.0):
-    - GoogleMaps/Base
-  - GooglePlacePicker (2.6.0):
-    - GoogleMaps (= 2.6.0)
-    - GooglePlaces (= 2.6.0)
-  - GooglePlaces (2.6.0):
-    - GoogleMaps/Base (= 2.6.0)
-  - McPicker (1.0.0)
-  - SwiftSpinner (1.5.0)
-  - SwiftyJSON (4.0.0)
+* GoogleMaps 2.6.0
+* GooglePlacePicker 2.6.0
+* GooglePlaces 2.6.0
+* McPicker 1.0.0
+* SwiftSpinner 1.5.0
+* SwiftyJSON 4.0.0
 
 
 ## Status
