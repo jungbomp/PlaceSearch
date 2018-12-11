@@ -9,15 +9,16 @@ This is practice to create a webapp witn Ajax, PHP, Node.js. In addition, this i
 * Use HTML5 placeholder to show the default value hint.
 * Search place detail using [Google Place API](https://developers.google.com/places/)
 
-### Implementation of PHP server page
+## Demo Screen shots
+* [Implementation of PHP server page](https://jungbomp.github.io/PlaceSearch/01_PlaceSearch_PHP)
 
 ![Demo1](demo1.png)
 
-### Implementation of Node.js Server app with Vanilla Script and Front-end libraries (Angular.js and jQuery)
+* [Implementation of Node.js Server app with Vanilla Script and Front-end libraries (Angular.js and jQuery)](https://jungbomp.github.io/PlaceSearch/02_PlaceSearch_Nodejs)
 
 ![Demo2](demo2.png)
 
-### Implementation of IOS app with Swift
+* [Implementation of IOS app with Swift](https://jungbomp.github.io/PlaceSearch/03_PlaceSearch_Swift)
 
 ![demo3](demo3.png)
 
