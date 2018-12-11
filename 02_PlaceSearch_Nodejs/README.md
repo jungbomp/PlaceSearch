@@ -74,6 +74,7 @@ An Example of a Valid result
 Autocomplete is implemented by using the autocomplete service provided by Google.
 
 An example of Google Auto Complete service is shown below:
+
 ![autocomplete](autocomplete.png)
 
 #### [Google Map](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
@@ -93,6 +94,7 @@ A sample of Google Map Direction
 Masonry layout is referred to as the Pinterest Style Layout, as www.pinterest.com was the first major website to use this layout style. Masonry is a grid layout based on columns. This web app implementes Masonry layout using Bootstrap4's card columns.
 
 A sample of Masonry Style Layout
+
 ![Masonry](Masonry.png)
 
 
