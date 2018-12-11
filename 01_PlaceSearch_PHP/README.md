@@ -15,7 +15,6 @@ This uses google Map APIs. Especially, it uses "Neary by Search", "Place Details
 #### [Nearyby Search](https://developers.google.com/places/web-service/search)
 
 The Google places API Nearby Search service expects the following parameters:
-
 * Key: Your application's API key.This key identifies your application for purposes of quota management.
 * Location: The geo-location around which to retrieve place information. The geo-location is specified by latitude and longitude values.
 * Radius: Defines the distance (in meters) within which to return place results. The maximum allowed radius is 50,000 meters. Note that you need to translate miles to meters for a correct value.
