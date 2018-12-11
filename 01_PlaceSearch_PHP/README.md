@@ -8,7 +8,7 @@ This is practice to create a webpage on PHP that allows to search for places inf
 * Use HTML5 placeholder to show the default value hint.
 * Search place detail using [Google Place API](https://developers.google.com/places/)
 
-[Initial Screen](initialSearchScreen.png)
+![Initial Screen](initialSearchScreen.png)
 
 ### Google Place API
 
@@ -25,15 +25,19 @@ The Google places API Nearby Search service expects the following parameters:
 * Keyword: A term to be matched against all content that Google has indexed for this place, including but not limited to name, type, and address, as well as customer reviews and other third-party content.
 
 An examples of an HTTP requests to the Google Places API Nearby Search that searches for the neary cafes near the University of Southern California within a 10 miles radius is shown below:
+
 ![nearbySearch](NearbySearchQuery.png)
 
 Result of Nearby Search Query
+
 ![result](resultGooglePlacesNearby.png)
 
 An Example of a Valid Search result
+
 ![result2](ResultValidSearchResult.png)
 
 A Valid Search Result rendering
+
 ![result3](validSearchResult.png)
 
 #### [Place Detail](https://developers.google.com/places/web-service/details)
@@ -44,9 +48,11 @@ The Google Places API Details service expects the following parameters:
 * Key: Your application's API key.This key identifies your application for purposes of quota management.
 
 An example of an HTTP request to the Google Places API Place Details is shown below:
+
 ![PlaceDetail](PlaceDetailQuery.png)
 
 An Example of a Valid Search result
+
 ![PlaceDetailResult](resultPlaceDetail.png)
 
 #### [Place Photos](https://developers.google.com/places/web-service/photos)
@@ -58,19 +64,23 @@ The Google Places API Photos service expects the following parameters:
 * maxheight or maxwidth: Spedifies the maximum desired height or width, in pixels, of the image returned by the Place Photos services.
 
 An example of an HTTP request to the Google Places API Place Photos is shown below:
+
 ![PlacePhotoQuery](PlacePhotoQuery.png)
 
 An Example of a Valid result
+
 ![Photo](resultPlacePhoto.png)
 
 #### [Google Map](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
 
 A sample of Google Map with "699 Exposition Blvd, Los Angeles"
+
 ![Map](Maps.png)
 
 #### [Directions](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
 
 A sample of Google Map Direction
+
 ![Direction](Direction.png)
 
 ### Building Environment
