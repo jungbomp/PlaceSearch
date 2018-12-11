@@ -32,13 +32,9 @@ Result of Nearby Search Query
 
 ![result](resultGooglePlacesNearby.png)
 
-An Example of a Valid Search result
+A Valid Search Results
 
-![result2](ResultValidSearchResult.png)
-
-A Valid Search Result rendering
-
-![result3](validSearchResult.png)
+![result2](validSearchResult.png)
 
 #### [Place Detail](https://developers.google.com/places/web-service/details)
 
