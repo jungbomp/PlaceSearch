@@ -1,6 +1,6 @@
 # Place Search
 
-This is practice to create a webapp witn Ajax, PHP, Node.js. In addition, this implements IOS app. 
+This is practice to create a webapp witn Ajax, PHP, Node.js, Vanilla Javascript and libries. In addition, this implements IOS app. 
 
 
 ## Description
